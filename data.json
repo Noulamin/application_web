@@ -1,0 +1,33 @@
+[
+    {
+       "name" : "karthi",
+       "email" : "user1232@gmail.com",
+       "phone" : "7305477760",
+       "Enroll Number" : "1234567305477760",
+       "Date of admission" : "5-jan,2022"
+    },
+ 
+    {
+       "name" : "anas",
+       "email" : "user1342@gmail.com",
+       "phone" : "7352477760",
+       "Enroll Number" : "1234567305477760",
+       "Date of admission" : "5-jan,2022"
+    },
+ 
+    {
+       "name" : "jalil",
+       "email" : "user3429@gmail.com",
+       "phone" : "732317760",
+       "Enroll Number" : "1234567305477760",
+       "Date of admission" : "5-jan,2022"
+    },
+ 
+    {
+       "name" : "ahmed",
+       "email" : "user1253@gmail.com",
+       "phone" : "738736760",
+       "Enroll Number" : "1234567305477760",
+       "Date of admission" : "5-jan,2022"
+    }
+ ]

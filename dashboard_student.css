@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    margin: 0px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    height: 97vh;
+    display: flex;
+}
+
+.left_side_bare{
+    height: 100vh;
+    width: 19vw;
+    background: #FAFFC1;
+    padding-top: 1.2vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right_side_bare{
+    width: 100%;
+    height: 100vh;
+}
+
+.e-class-logo{
+    position: absolute;
+    left: 0px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    border-left: 0.4vw solid #4FD5EB;
+    padding-left: 0.6vw;
+    margin-left: 2vw;
+    margin-top: 0px;
+}
+
+img{
+    max-width: 8.2vw;
+    margin-top: 5vw;
+}
+.name{
+    font-size: 1vw;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.role{
+    font-size: 0.8vw;
+    font-weight: bold;
+    color: cyan;
+}
+
+.buttons{
+    width: 13vw;
+}
+
+.bu0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.4vw;
+    margin-bottom: 1vw;
+    background: #00C1FE;
+    border-radius: 0.2vw;
+    border: none;
+    outline: none;
+    font-size: 0.7vw;
+}
+
+.bu0:hover{
+    transition: 0.4s;
+    background: blue;
+    color: white;
+}
+
+.bu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.4vw;
+    margin-bottom: 1vw;
+    background: transparent;
+    border-radius: 0.2vw;
+    border: none;
+    outline: none;
+    font-size: 0.7vw;
+}
+
+.bu:hover{
+    transition: 0.4s;
+    background: blue;
+    color: white;
+}
+
+.sign_out{
+    width: 13vw;
+    height: 4vw;
+    position: absolute;
+    bottom: 0px;
+}
+
+.logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.4vw;
+    margin-bottom: 1vw;
+    background: none;
+    border-radius: 0.2vw;
+    border: none;
+    outline: none;
+    font-size: 0.7vw;
+}
+.logout:hover{
+    transition: 0.4s;
+    background: blue;
+    color: white;
+}
+
+
+header{
+    width: 100%;
+    height: 5vw;
+}
+
+.icons{
+    max-width: 0.66vw;
+    margin: 0px;
+}
+
+.center{
+    width: 1vw;
+}
+
+.center0{
+    width: 3.4vw;
+}
+
+header img{
+    max-width: 1.5vw;
+    margin: 0px;
+    float: right;
+    margin-right: 3vw;
+    margin-left: 1.5vw;
+    margin-top: 1.1vw;
+}
+
+header input{
+    float: right;
+    width: 14vw;
+    height: 1.7vw;
+    border-radius: 0.3vw;
+    border: 1px solid #E5E5E5;
+    outline: none;
+    font-size: 0.8vw;
+    padding-left: 0.8vw;
+    margin-top: 1vw;
+}
+
+header input::placeholder{
+    color: #E5E5E5;
+}
+
+.divs{
+    width: 100% !important;
+    height: 89vh !important;
+    background: white !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.divs1{
+    width: 78vw;
+    height: 3vw;
+    position: relative;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.divs2{
+    width: 78vw;
+    height: 100%;
+    overflow-y: overlay;
+}
+
+.p1{
+    font-weight: bold;
+    font-size: 1.1vw;
+    margin: 0.3vw;
+}
+
+.bu2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 13vw;
+    height: 2.2vw;
+    border-radius: 0.25vw;
+    border: 1px solid #00C1FE;
+    color: white;
+    background: #00C1FE;
+    outline: none;
+    font-size: 0.8vw;
+    padding-left: 0.8vw;
+    margin-top: 0px;
+}
+
+.bu2:hover{
+    transition: 0.4s;
+    background: blue;
+    color: white;
+}
+
+td{
+    text-align: center;
+    font-size: 0.9vw;
+    padding: 0.7vw;
+}
+
+th{
+    font-size: 0.8vw;
+    text-align: center !important;
+}
+
+th img{
+    margin-top: 0px;
+    max-width: 5vw;
+}
+
+
+table{
+    width: 98% !important ;
+}
+
+.form_back{
+    opacity: 0.5;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: none;
+}
+.form_back_{
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+.form{
+    opacity: 1;
+    width: 37vw;
+    height: 26vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.5vw;
+    margin: auto;
+    box-shadow: 1px 0px 20px 0px;
+    position: relative;
+    top: 27vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.x_bu{
+    position: absolute;
+    right: 0.2vw;
+    top: 0.2vw;
+    width: 1.7vw;
+    height: 1.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border: none;
+}
+
+.inp{
+    width: 24vw;
+    height: 2.6vw;
+    margin: 0px;
+    outline: none;
+    border-radius: 0.2vw;
+}
+
+.p_input{
+    margin: 0px;
+    font-size: 1vw;
+}
+
+.save_bu{
+    width: 24vw;
+    height: 2.6vw;
+    margin: 0px;
+    outline: none;
+    border-radius: 0.25vw;
+    border: 1px solid #00C1FE;
+    color: white;
+    background: #00C1FE;
+    font-size: 1vw;
+    margin-top: 1vw;
+}
+
+.save_bu:hover{
+    transition: 0.4s;
+    background: blue;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    
+    *{
+        font-size: 4vw;
+    }
+
+    .left_side_bare{
+        height: 10vh;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        
+    }
+
+    .divs1{
+        width: 100%;
+    }
+
+    .divs2{
+        width: 100%;
+    }
+
+    .e-class-logo{
+        display: none;
+    }
+
+    img{
+        display: none;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .center0{
+        display: none;
+    }
+
+
+    .name{
+        display: none;
+    }
+
+    .role{
+        display: none;
+    }
+
+    .bu0{
+        width: 9vw;
+        height: 9vw;
+
+    }
+
+    .bu{
+        width: 9vw;
+        height: 9vw;
+    }
+
+    td{
+        font-size: 2vw;
+    }
+
+    th{
+        font-size: 2vw;
+    }
+
+    .center{
+        width: auto;
+    }
+
+    .bu2{
+        display: none;
+    }
+
+    header input{
+        width: 37vw;
+        height: 8vw;
+        font-size: 3vw;
+    }
+
+    .p1{
+        font-size: 2vw;
+    }
+}
